@@ -5,7 +5,7 @@ u"""
 指定したディレクトリ以下のバイナリーファイルにマニフェスト情報を埋め込む。
 
 マニフェストファイルの作成方法は以下の通り。
-mt.exe -out:py27.manifest -inputresource:C:\Python27\python.exe
+C:\Program Files (x86)\Windows Kits\8.1\bin\x64\mt.exe -out:py27.manifest -inputresource:C:\Python27\python.exe
 """
 
 from __future__ import absolute_import, division, print_function
